@@ -873,7 +873,7 @@ local plugEmotes = {
 	{ name = "pray", id =70813967093107, icon = "rbxthumb://type=Asset&id=70813967093107&w=150&h=150", price = 50, lastupdated = 1713462122, sort = {} },
 	{ name = "sleep", id =104024961010344, icon = "rbxthumb://type=Asset&id=104024961010344&w=150&h=150", price = 50, lastupdated = 1713462122, sort = {} },
 	{ name = "T", id =3576719440, icon = "rbxthumb://type=Asset&id=3576719440&w=150&h=150", price = 50, lastupdated = 1713462122, sort = {} },
-	{ name = "coin flip", id =128000234046934, icon = "rbxthumb://type=Asset&id=128000234046934&w=150&h=150", price = 50, lastupdated = 1713462122, sort = {} },
+	{ name = "Surfer", id =134429549413830, icon = "rbxthumb://type=Asset&id=134429549413830&w=150&h=150", price = 50, lastupdated = 1713462122, sort = {} },
 }
 
 for _, e in ipairs(plugEmotes) do
