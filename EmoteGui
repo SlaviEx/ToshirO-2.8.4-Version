@@ -880,6 +880,24 @@ for _, e in ipairs(plugEmotes) do
 	AddEmote(e.name, e.id, e.price)
 end
 
+-- AnimGui emotes (animations tab)
+local animGuiAnimations = {
+	{n = "Handstand", i = "rbxassetid://13027233338",    order = 1},
+	{n = "VIP 01",    i = "rbxassetid://14852252548",    order = 2},
+	{n = "VIP 03",    i = "rbxassetid://137445502103066",order = 3},
+	{n = "VIP 08",    i = "rbxassetid://11137338685",    order = 4},
+	{n = "VIP 09",    i = "rbxassetid://11136806744",    order = 5},
+	{n = "Ghostly",   i = "rbxassetid://124385779438289",order = 6},
+	{n = "Oof",       i = "rbxassetid://134763058840745",order = 7},
+	{n = "Die",       i = "rbxassetid://14852161489",    order = 8},
+	{n = "Log",       i = "rbxassetid://116818881329505",order = 9},
+	{n = "blow",      i = "rbxassetid://124072584017964",order = 10},
+}
+for _, animData in ipairs(animGuiAnimations) do
+	local cleanId = tonumber(animData.i:match("%d+"))
+	if cleanId then AddEmote(animData.n, cleanId, 0) end
+end
+
 -- =========================================================
 --              LOADING DONE
 -- =========================================================
