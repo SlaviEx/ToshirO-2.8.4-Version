@@ -490,10 +490,10 @@ AddEmoteStroke.Color = Color3.fromRGB(80, 80, 80); AddEmoteStroke.Thickness = 1;
 AddEmoteStroke.Parent = AddEmoteButton
 
 local MadeByLabel = Instance.new("TextLabel")
-MadeByLabel.Text = "Made By Toshiro.                  Version: 2.8.4 🥴"
+MadeByLabel.Text = "Made By EVILToshiro                  Version: 2.8.4 🥴"
 MadeByLabel.TextScaled = true
 MadeByLabel.BackgroundColor3 = Color3.fromRGB(0, 0, 0); MadeByLabel.BackgroundTransparency = 0.3
-MadeByLabel.TextColor3 = Color3.new(1, 1, 1); MadeByLabel.BorderSizePixel = 0
+MadeByLabel.TextColor3 = Color3.new(187, 0, 255); MadeByLabel.BorderSizePixel = 0
 MadeByLabel.AnchorPoint = Vector2.new(0.5, 0.5); MadeByLabel.Position = UDim2.new(1.02, 0, 1, 0)
 MadeByLabel.Size = UDim2.new(0.25, 0, 0.06, 0); MadeByLabel.Font = Enum.Font.GothamBold
 Corner:Clone().Parent = MadeByLabel; MadeByLabel.Parent = BackFrame
